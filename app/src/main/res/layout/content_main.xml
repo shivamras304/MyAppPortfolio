@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shivam.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-light"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp">
+
+        <Button
+            android:id="@+id/button_spotify_streamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#B0BEC5"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="Spotify Streamer"
+            android:textStyle="bold"
+            android:onClick="button1"/>
+
+        <Button
+            android:id="@+id/button_scores_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#B0BEC5"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="Scores App"
+            android:textStyle="bold"
+            android:onClick="button2"/>
+
+        <Button
+            android:id="@+id/button_library_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#B0BEC5"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="Library App"
+            android:textStyle="bold"
+            android:onClick="button3"/>
+
+        <Button
+            android:id="@+id/button_build_it_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#B0BEC5"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="Built It Bigger"
+            android:textStyle="bold"
+            android:onClick="button4"/>
+
+        <Button
+            android:id="@+id/button_xyx_reader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#B0BEC5"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="XYZ Reader"
+            android:textStyle="bold"
+            android:onClick="button5"/>
+
+        <Button
+            android:id="@+id/button_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:fontFamily="sans-serif-light"
+            android:padding="8dp"
+            android:text="Capstone : My Own App"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:onClick="button6"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
